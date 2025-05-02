@@ -1,0 +1,54 @@
+@import "../utils/utils";
+header {
+  display: flex;
+  font-family: Montserrat;
+  height: 45px;
+  align-items: center;
+  margin-bottom: 68px;
+  margin-top: 17px;
+}
+
+header .a-first-name-off-project {
+  text-decoration: none;
+}
+
+.first-name-off-project {
+  color: $a-and-btn;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.header-menu {
+  width: 470px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 632px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.header-menu>li>a {
+  text-decoration: none;
+  color: $a-and-btn;
+}
+
+.header-menu>li>.red {
+  color: $active;
+  text-decoration-color: $active;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.whith-restrangle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.restrangle {
+  margin-top: 10px;
+}

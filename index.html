@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -13,7 +13,6 @@
   </head>
   <body>
     <div class="container">
-
       <header>
         <a href="#" class="a-first-name-off-project">
           <span class="first-name-off-project">MoGo</span></a
@@ -22,7 +21,7 @@
           <li class="whith-restrangle">
             <a href="#" class="red">ABOUT</a>
             <svg class="restrangle" width="50px" height="3px">
-              <use href="#restrangle"></use>
+              <use href="./symbol.svg#restrangle"></use>
             </svg>
           </li>
           <li><a href="#">SERVICE</a></li>
@@ -31,30 +30,29 @@
           <li><a href="#">CONTACT</a></li>
         </ul>
       </header>
-
       <main>
         <section class="section1">
-          <div class="section1-h2">
-            <p class="section1-p-name">We work with</p>
+          <div class="section1__box-header">
+            <p class="section1__p-name">We work with</p>
             <h2>Amazing Services</h2>
             <svg class="seckond-restrangle">
-              <use href="#seckond-restrangle"></use>
+              <use href="./symbol.svg#seckond-restrangle"></use>
             </svg>
           </div>
-          <ul class="section1-menu">
-            <li class="section1-menu-items need-margin">
+          <ul class="section1__box-of-services">
+            <li class="box-of-services__item need-margin">
               <div class="logo">
                 <svg class="clock-use" width="37.79px" height="37px">
                   <use href="./symbol.svg#clock"></use>
                 </svg>
-                <h3>PHOTOGRAPHY</h3с>
+                <h3>PHOTOGRAPHY</h3>
               </div>
               <p class="section1-menu-items-p">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor.
               </p>
             </li>
-            <li class="section1-menu-items need-margin">
+            <li class="box-of-services__item need-margin">
               <div class="logo">
                 <svg width="37px" height="37px">
                   <use href="./symbol.svg#progress"></use>
@@ -66,11 +64,11 @@
                 eiusmod tempor.
               </p>
             </li>
-            <li class="section1-menu-items">
+            <li class="box-of-services__item">
               <div class="logo">
-              <svg width="37px" height="37px">
-                <use href="./symbol.svg#computer"></use>
-              </svg>
+                <svg width="37px" height="37px">
+                  <use href="./symbol.svg#computer"></use>
+                </svg>
                 <h3>PHOTOGRAPHY</h3>
               </div>
               <p class="section1-menu-items-p">
@@ -78,7 +76,7 @@
                 eiusmod tempor.
               </p>
             </li>
-            <li class="section1-menu-items need-margin">
+            <li class="box-of-services__item need-margin">
               <div class="logo">
                 <svg width="37px" height="37px">
                   <use href="./symbol.svg#book"></use>
@@ -90,7 +88,7 @@
                 eiusmod tempor.
               </p>
             </li>
-            <li class="section1-menu-items need-margin">
+            <li class="box-of-services__item need-margin">
               <div class="logo">
                 <svg width="37px" height="37px">
                   <use href="./symbol.svg#house"></use>
@@ -102,7 +100,7 @@
                 eiusmod tempor.
               </p>
             </li>
-            <li class="section1-menu-items">
+            <li class="box-of-services__item">
               <div class="logo">
                 <svg width="37px" height="37px">
                   <use href="./symbol.svg#digital-marceting"></use>
@@ -117,35 +115,33 @@
           </ul>
         </section>
         <section class="section2">
-          <div class="box-section2">
-          <p class="section2-items-p">Who we are</p>
-          <h2 class="section2-items-h2">
-              Meet our team
-          </h2>
-          <svg width="60px" height="4px">
-            <use href="#seckond-restrangle"></use>
-          </svg>
-        </div>
-          <p class="section2-itemsafterbox-p">
+          <div class="section2__header">
+            <p class="header__p">Who we are</p>
+            <h2 class="header__h2">Meet our team</h2>
+            <svg width="60px" height="4px">
+              <use href="./symbol.svg#seckond-restrangle"></use>
+            </svg>
+          </div>
+          <p class="section2__p-introductory">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.
           </p>
-          
-          <ul class="section2-itemsafterbox-menu-of-pictures">
+
+          <ul class="section2__ul-grid-box">
             <li>
-              <img src="./img/first-man.jpg" alt="man" width="380px"/>
+              <img src="./img/first-man.jpg" alt="man" width="380px" />
               <h3>Matthew Dix</h3>
               <p>Graphic Design</p>
             </li>
             <li>
-              <img src="./img/second-man 1.png" alt="man"  width="380px"/>
+              <img src="./img/second-man 1.png" alt="man" width="380px" />
               <h3>Christopher Campbell</h3>
               <p>Branding/UX design</p>
             </li>
             <li>
-              <img src="./img/third-man 1.png" alt="man"  width="380px"/>
+              <img src="./img/third-man 1.png" alt="man" width="380px" />
               <h3>Michael Fertig</h3>
               <p>Developer</p>
             </li>
@@ -153,15 +149,20 @@
         </section>
       </main>
       <footer>
-        <div class="by">
+        <div class="footer__div-made-by">
           <p>
-            © 2016 MoGo free PSD template by <span class="by-red">Laaqiq</span> 
+            © 2016 MoGo free PSD template by
+            <span class="div-made-by__span">Laaqiq</span>
           </p>
         </div>
         <form action="">
-        <input type="text" placeholder="Your Email..." class="footer-input">
-        <button class="footer-button">Subscribe</button>
-      </form>
+          <input
+            type="text"
+            placeholder="Your Email..."
+            class="footer__input"
+          />
+          <button class="footer__button">Subscribe</button>
+        </form>
       </footer>
     </div>
   </body>

@@ -1,0 +1,40 @@
+svg {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ul,
+a,
+header,
+main,
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1200px;
+}
+@import "./components/header";
+@import "./components/main";
+@import "./components/footer";
