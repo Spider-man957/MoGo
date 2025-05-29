@@ -8,15 +8,13 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
   </head>
   <body>
     <div class="container">
       <header>
         <a href="#" class="a-first-name-off-project">
-          <span class="first-name-off-project">MoGo</span></a
-        >
+          <span class="first-name-off-project">MoGo</span></a>
         <ul class="header-menu">
           <li class="whith-restrangle">
             <a href="#" class="red">ABOUT</a>
@@ -29,6 +27,25 @@
           <li><a href="#">BLOG</a></li>
           <li><a href="#">CONTACT</a></li>
         </ul>
+        <div class="menu-overlay" id="menuOverlay">
+          <button class="hamburger-btn" id="hamburgerBtn" onclick="openMenu()">
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+          </button>
+          <ul class="header-menu">
+            <li class="whith-restrangle">
+              <a href="#" class="red">ABOUT</a>
+              <svg class="restrangle" width="50px" height="3px">
+                <use href="./symbol.svg#restrangle"></use>
+              </svg>
+            </li>
+            <li><a href="#" class="menu-item">SERVICE</a></li>
+            <li><a href="#" class="menu-item">WORK</a></li>
+            <li><a href="#" class="menu-item">BLOG</a></li>
+            <li><a href="#" class="menu-item">CONTACT</a></li>
+          </ul>
+        </div>
       </header>
       <main>
         <section class="section1">
@@ -155,12 +172,11 @@
             <span class="div-made-by__span">Laaqiq</span>
           </p>
         </div>
-        <form action="">
+        <form action>
           <input
             type="email"
             placeholder="Your Email..."
-            class="footer__input"
-          />
+            class="footer__input" />
           <button class="footer__button">Subscribe</button>
         </form>
       </footer>

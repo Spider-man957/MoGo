@@ -1,7 +1,7 @@
 footer {
-  width: 1200px;
-  height: 50px;
-  margin-top: 80px;
+  width: 75rem;
+  height: 3.125rem;
+  margin-top: 5rem;
   display: flex;
   font-family: Montserrat;
   border-top: 1px solid $normal-text;
@@ -9,52 +9,52 @@ footer {
 
 .footer__div-made-by {
   font-family: Montserrat;
-  font-size: 13px;
-  width: 320px;
+  font-size: 0.8125rem;
+  width: 20rem;
   letter-spacing: 0%;
-  margin-top: 22px;
+  margin-top: 1.375rem;
 }
 
 .div-made-by__span {
   color: $active;
   font-family: Montserrat;
-  font-size: 13px;
+  font-size: 0.8125rem;
   letter-spacing: 0%;
 }
 
 footer>form {
   display: flex;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 .footer__input {
-  width: 230px;
-  height: 39px;
+  width: 14.375rem;
+  height: 2.4375rem;
   padding: 0;
   color: $headers;
   font-family: Roboto;
   font-weight: 300;
   font-style: italic;
-  font-size: 14px;
+  font-size: 0.875rem;
   border: 1px solid $normal-text;
   border-right: none;
   margin-right: 0;
-  padding-left: 10px;
-  margin-left: 524px;
+  padding-left: 0.625rem;
+  margin-left: 32.75rem;
 }
 
 .footer__input:active,
-:hover,
-:focus {
+.footer__input:hover,
+.footer__input:focus {
   outline: 0;
   outline-offset: 0;
 }
 
 .footer__button {
   background-color: $a-and-btn;
-  width: 150px;
-  height: 40px;
+  width: 9.375rem;
+  height: 2.5rem;
   border: none;
   margin-left: 0;
   padding: 0;
